@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Heebo', sans-serif !important;
+    background-color: #a4e7ef !important;
+    direction: rtl !important;
+    padding:0px;
+    margin:0px;
+    
+}
+
+.text {
+    font-size:1rem;
+    padding: 10px;
+    word-break: break-all !important;
+    margin: 0px;
+    direction: rtl;
+    text-align: right;
+}
+
+.btn.btn-light.read-more-btn {
+    border: 2px solid #000;
+}
+
+.controls {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.no-padding {
+    padding: 0 !important;
+}

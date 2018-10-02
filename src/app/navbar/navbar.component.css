@@ -1,0 +1,54 @@
+.menu-container {
+    height: 100%;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.menu-list li {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    color: white;
+    margin: 2px;
+    font-size: 1rem;
+    display: inline;
+    text-align: center;
+    flex: 1;
+}
+
+.logo {
+    position: relative;
+    top: -95px;
+    display: none;
+}
+
+.list-inline {
+    display: flex;
+}
+
+li {
+    flex: 1;
+}
+
+@media(min-width:768px) {
+    .menu-list li {
+        margin: 0px;
+    }
+}
+
+@media(min-width:992px) {
+    .logo {
+        display: inline-block;
+    }
+    .menu-list li {
+        letter-spacing: 2px;
+        font-size: 1.2rem;
+    }
+}
+
+@media(min-width:1380px) {
+    .logo {
+        top: -65px;
+    }
+}

@@ -1,0 +1,185 @@
+/* right side - section two*/
+
+.content-right-side {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.content-right-side>div {
+    flex: 1;
+    border: 1px solid black;
+}
+
+.middle-content {
+    flex: 2 !important;
+    overflow: hidden;
+    height: 100%;
+    word-wrap: break-word;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-contained {
+    margin: 10px;
+}
+
+.bottom-image, .bottom-image>img {
+    flex: 3;
+    background-image: url('/assets/PNG/Asset 20.png');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.top-left-content {
+    flex: 1;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-image: url('/assets/PNG/Asset 18.png');
+    background-position: center;
+}
+
+.top-right-background {
+    flex: 1;
+    border: 2px solid black;
+    background-color: #18a7b2;
+}
+
+.bottom-right-image {
+    border: 2px solid black;
+    flex: 2;
+    background-repeat: no-repeat;
+    background-image: url('/assets/PNG/Asset 19.png');
+    background-position: center;
+}
+
+.calander-img {
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('/assets/PNG/Asset 40.png');
+}
+
+.lines-wrapper {
+    background-image: url('/assets/PNG/Asset 43.png');
+    background-size: cover;
+    padding: 50px;
+}
+
+.rent-section {
+    border: 5px solid #000;
+    background-color: #fff;
+    margin: auto;
+}
+
+.calander-slider {
+    display: flex;
+    background-color: white;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.cal-header-title p {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.calander-warpper {
+    background-color: #fff;
+    border: 2px solid black;
+}
+
+.calander {
+    display: flex;
+    text-align: right;
+    width: 100%;
+    padding: 0px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.calander-cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cell {
+    flex: 1;
+    word-wrap: break-all;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.calander-right-side {
+    height: 100%;
+}
+
+.calander-center {
+    height: 100%;
+}
+
+.calander-left-side {
+    height: 100%;
+    padding: 5px;
+    margin: 0px;
+}
+
+.date-number {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.date-text {
+    text-align: center;
+}
+
+.header {
+    font-size: 2rem;
+}
+
+.description {
+    font-size: 1rem;
+}
+
+.cell button {
+    margin-top: 5px;
+    letter-spacing: 1px;
+    border: 2px solid #000;
+    font-weight: 700;
+    color: #000;
+    transition: all 0.5s;
+    margin-bottom: 5px;
+}
+
+.btn.btn-light.register {
+    background-color: #ffd1c3;
+    padding: 15px 20px;
+}
+
+.btn.btn-light.read-more {
+    background-color: white;
+}
+
+.btn.btn-light.register:hover {
+    background-color: white;
+}
+
+.cell p {
+    margin: 5px;
+}

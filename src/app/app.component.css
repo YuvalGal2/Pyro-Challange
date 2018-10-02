@@ -1,0 +1,30 @@
+
+.top-section{
+    margin:0px;
+    padding:0px;
+    
+
+}
+.header{
+       height: 96px;
+       width: 100%;
+       padding: 0px;
+       margin: 0px;
+       background-color:#18617b;;
+       background-image: url("/assets/PNG/Asset 32.png");
+       background-size: cover;
+       background-position-x: left;
+       background-position-y: center;
+}
+.menu{
+       height:50px;
+       width: 100%;
+       padding: 0px;
+       margin: 0px;
+       background-color:#18617b;;
+ 
+
+}
+.home{
+       padding:0px;
+}

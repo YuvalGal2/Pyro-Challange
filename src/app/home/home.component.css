@@ -1,0 +1,123 @@
+
+ 
+
+    .section-one {
+        margin-top:0px;
+        overflow: hidden;
+        
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .header-title {
+        position: relative;
+        bottom: 20px;
+        width:100%;
+        text-align: center;
+
+    }
+    .header-title> img{
+      width:200px;
+      position: relative;
+      
+
+    }
+    
+    .sunshine > img {
+        position: relative;
+        bottom: 50px;
+        left: 80%;
+        top:20px;
+    }
+    .house-element {
+       
+       
+        position: relative;
+        z-index: 2;
+    }
+    .house-element > img{
+        width:100%;
+    }
+    
+    .cloud {
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .cloud-right-top {
+        top: 100px;
+        right: 300px;
+        visibility: hidden;
+    }
+    
+    .cloud-right-bottom {
+        top: 260px;
+        right: 410px;
+        visibility: hidden;
+    }
+    
+    .cloud-left-top {
+        left: 230px;
+        top: 70px;
+        visibility: hidden;
+    }
+    
+    .cloud-left-middle {
+        left: 80px;
+        top: 140px;
+        visibility: hidden;
+    }
+    
+    .cloud-left-edge {
+        left: 20px;
+        top: 20px;
+    }
+    
+
+    @media(min-width:575px){
+        .header-title> img{
+          top:100px;
+      
+          }
+    }
+
+    @media(min-width:768px){
+        .cloud {
+            visibility:visible;
+        }
+        .cloud-right-top {
+            visibility:visible;
+        }
+        .cloud-right-bottom {
+            visibility:visible;
+        }
+        .cloud-left-top {
+            visibility:visible;
+        }
+        .cloud-left-middle {
+           visibility:visible;
+        }
+        .cloud-left-edge {
+            left: -60px;
+            top: 90px;
+        }
+        .sunshine > img{
+           
+            left: 50%;
+            top: 100px;
+        }
+
+    }
+    @media(min-width:1200px){
+        .header-title> img{
+            position: relative;
+            width:400px;
+          }
+          .sunshine > img{
+           
+            right:0px;
+            top: 100px;
+        }
+    }
